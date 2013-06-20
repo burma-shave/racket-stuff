@@ -1,0 +1,17 @@
+#lang racket
+
+
+(struct post (title body))
+
+(define FIRST-POST
+  (post "My First Post" 
+        "I don't have much to say unfortunatley"))
+
+(define SECOND-POST
+  (post "My Second Post"
+        "Still no idea what I'm supposed to write about"))
+
+
+(define BLOG '(FIRST-POST SECOND-POST))
+
+
